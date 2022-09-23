@@ -19,8 +19,7 @@ class ShoppingCart:
         final_cart_total = 0
         for product in self.products:
            final_cart_total += product.price
-           
-           return final_cart_total 
+        return final_cart_total 
 
     def add_item_to_cart(self, product):
         self.products.append(product)
